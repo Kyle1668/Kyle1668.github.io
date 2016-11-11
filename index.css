@@ -132,7 +132,7 @@ hr.style2 {
     color: #F2F1EF;
     height: 100%;
     width: 100%;
-    background-image: url("/assets/img/header-background.jpg");
+    background-image: url("assets/img/header-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -288,7 +288,7 @@ hr.style2 {
     background-color: #95A5A6;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url("assets/img/portfolio-4.jpg");
+    background-image: url("assets/img/callout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
