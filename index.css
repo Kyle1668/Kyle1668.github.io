@@ -164,7 +164,7 @@ hr.style2 {
     font-weight: lighter;
 }
 .tech ul {
-    padding-top: 30px;
+    padding-top: 12px;
     padding-left: 17%;
     line-height: 30px;
 }
@@ -179,7 +179,7 @@ hr.style2 {
 }
 @media (max-width: 1024px) {
     .tech {
-    border-right: none
+    border-right: none;
     }
     .skills {
         margin-right: 50px;
