@@ -63,7 +63,7 @@ hr.style2 {
     background-image: url("assets/img/header-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
 }
 
 .header-text {
