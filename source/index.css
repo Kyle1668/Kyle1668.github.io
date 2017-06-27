@@ -1,0 +1,276 @@
+/*Global Styles*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Raleway;
+    color: #22313F;
+    background-color: #ddd;
+}
+
+a {
+    color: #2C3E50;
+}
+
+::selection {
+    color: #ecf0f1;
+    background: rgb(51, 51, 51);
+}
+
+@media (min-width: 1024px) {
+    .hideme {
+        opacity: 0;
+    }
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    color: #ecf0f1;
+    background: rgb(51, 51, 51);
+}
+
+span {
+    margin-left: 45%;
+    margin-right: 55%;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+/* Horizontal Rule */
+
+hr.style1 {
+    border-top: 1px solid #F2F1EF;
+    width: 30%;
+}
+
+hr.style2 {
+    width: 200px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+/* Header */
+
+#header {
+    height: 100%;
+    width: 100%;
+    color: #F2F1EF;
+    background: #c26868;
+}
+
+.terminal-body {
+    height: 500px;
+    width: 620px;
+    margin-top: 90px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #383737;
+    border-top: 20px solid #ddd;
+    border-radius: 10px;
+}
+
+.terminal-body a {
+    color: #3a92c8;
+    text-decoration: none;
+}
+
+.command {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.result {
+    padding-left: 80px;
+    font-weight: lighter;
+}
+
+.down-arrow {
+    margin-top: 35px;
+    margin-left: 50%;
+    margin-right:50%;
+}
+
+/*Quote*/
+
+#quote li {
+    text-align: center;
+    color: #666;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    list-style-type: none;
+    line-height: 15px;
+}
+
+#line3 {
+    font-size: 15px;
+}
+
+/*Bio*/
+
+#bio {
+    color: #F2F1EF;
+    background-color: #90AFC5;
+    padding-top: 40px;
+}
+
+#bio h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#bio img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+}
+
+.summary {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 30px 12% 50px;
+}
+
+/* Work Experience */
+
+#work-experience {
+    background-color: #1d976c;
+}
+
+/*Skills*/
+
+#experience h2 {
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+/*Experience*/
+
+#experience {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /*color: #666;*/
+}
+
+#experience h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.tech {
+    padding-top: 20px;
+}
+
+.tech h3 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.tech ul {
+    padding-top: 10px;
+    padding-left: 17%;
+    line-height: 30px;
+}
+
+.classes {
+    padding-top: 20px;
+    border-left: 1px dashed #bec8ce;
+}
+
+.classes ul {
+    padding-top: 20px;
+    padding-left: 17%;
+    line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+    .tech {
+        border-right: none;
+    }
+    .skills {
+        margin-right: 50px;
+    }
+    .classes {
+        border-top: 1px dashed #95A5A6;
+        margin-top: 50px;
+    }
+    #experience {
+        padding-top: none;
+        padding-bottom: none;
+    }
+}
+
+.col-md-6 {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-6 {
+    padding: 0;
+    margin: 0;
+}
+
+/*Contact*/
+
+#contact {
+    color: #F2F1EF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background: #4C5364 ;
+}
+
+#contact h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#contact .row {
+    padding-top: 30px;
+}
+
+#contact .col-lg-4 {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#contact .col-md-6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#contact p {
+    padding-left: 15%;
+    padding-top: 20px;
+    padding-right: 5%;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 26px;
+}
+
+.col-lg-8 {
+    padding-top: 45px;
+}
+
+#contact img {
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 15px;
+}
