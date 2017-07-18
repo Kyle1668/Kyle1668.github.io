@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     // Bio
     $(".hoverBio").hover(function () {
-            if ($(this).css('opacity') == 1) {
+            if ($(this).css('opacity') === 1) {
                 $(this).stop(true, true).animate({backgroundColor: "#7397b1"}, "slow");
             }
         },
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     // Quote
     $("#quote").hover(function () {
-            if ($(this).css('opacity') == 1) {
+            if ($(this).css('opacity') === 1) {
                 $(this).stop(true, true).animate({backgroundColor: "#eee"}, "slow");
             }
         },
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     // Experience
     $("#experience").hover(function () {
-            if ($(this).css('opacity') == 1) {
+            if ($(this).css('opacity') === 1) {
                 $(this).stop(true, true).animate({backgroundColor: "#eee"}, "slow");
             }
         },
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     // Contact
     $(".hoverContact").hover(function () {
-            if ($(this).css('opacity') == 1) {
+            if ($(this).css('opacity') === 1) {
                 $(this).stop(true, true).animate({backgroundColor: "#34495e"}, "slow");
             }
         },
